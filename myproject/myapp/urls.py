@@ -5,8 +5,8 @@ from . import views
 
 urlpatterns = [
     
-    path('', views.index, name="home"),
+    path('index', views.index, name="home"),
     path('filesolution', views.filedownloadpage, name='csvfilesolution'),
-    path('solutiondownload/', views.download_file, name='solutiondownload')
+    path('solutiondownload', views.download_file, name='solutiondownload')
     
 ]

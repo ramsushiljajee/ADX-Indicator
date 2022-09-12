@@ -174,7 +174,7 @@ def index(request):
 
             df.to_csv('media/ADX-Solution.csv', index=False, header=True)
 
-            df.plot(x="Time", y=["+DI14", "-DI14", "ADX"], kind="line", figsize=(25, 7))
+            df.plot(x="Time", y=["+DI14", "-DI14", "ADX"], kind="line", figsize=(30, 8))
             dataOut = mp.show
         
             return render(request, 'filedownload.html', {"something": True, "data": dataOut})
