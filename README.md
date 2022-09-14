@@ -1,6 +1,6 @@
 # ADX-Indicator
 
-ADX is non-directional. It registers trend strength whether price is trending up or down. When the +DMI is above the -DMI, prices are moving up, and ADX measures the strength of this uptrend. When the -DMI is above the +DMI, prices are moving down, and ADX measures the strength of this downtrend
+ADX stands for Average Directional Movement Index. ADX is non-directional. It registers trend strength whether price is trending up or down. When the +DMI is above the -DMI, prices are moving up, and ADX measures the strength of this uptrend. When the -DMI is above the +DMI, prices are moving down, and ADX measures the strength of this downtrend
 
 - Requirments
 1. Python 3.9.0
